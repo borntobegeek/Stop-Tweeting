@@ -1,1 +1,2 @@
-# Stop-Tweeting
+# Stop Tweeting
+It is a little script that automatically tweets a gif (courtesy of [@swear_trek](https://twitter.com/swear_trek)) to anyone whose twitter handle is in the script whenever their Twitter account tweets anything. It uses [TwitterAPI](https://github.com/geduldig/TwitterAPI), a Python wrapper around the official Twitter API. It runs every 10 seconds, checks if there is a new tweet, than composes a tweet with image and the text you give it. That's it really :)
